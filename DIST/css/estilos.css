@@ -1,0 +1,433 @@
+/* 
+  Estilos en general para ULISESWEBMASTER.com
+*/
+
+body
+{
+
+  margin:0;
+  padding:0;
+  background: url(../img/bg-uw.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.cabecera
+{
+
+  color: #111111;
+
+}
+
+.cabecera .marca
+{
+
+  background: #e5f3ff;
+  background: -moz-linear-gradient(left, #e5f3ff 0%, #e5f3ff 31%, #80bdff 86%, #80bdff 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #e5f3ff), color-stop(31%, #e5f3ff), color-stop(86%, #80bdff), color-stop(100%, #80bdff));
+  background: -webkit-linear-gradient(left, #e5f3ff 0%, #e5f3ff 31%, #80bdff 86%, #80bdff 100%);
+  background: -o-linear-gradient(left, #e5f3ff 0%, #e5f3ff 31%, #80bdff 86%, #80bdff 100%);
+  background: -ms-linear-gradient(left, #e5f3ff 0%, #e5f3ff 31%, #80bdff 86%, #80bdff 100%);
+  background: linear-gradient(to right, #e5f3ff 0%, #e5f3ff 31%, #80bdff 86%, #80bdff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5f3ff', endColorstr='#80bdff', GradientType=1 );
+  height: 12rem;
+
+}
+
+.logomarca
+{
+  width:30rem;
+  margin-left: 2rem;
+}
+
+.lineaht
+{
+  border: 0.1rem solid #1c336c;
+  background: #1c336c;
+  width: 90%;
+}
+
+.piepagina
+{
+  background: #161856; 
+  color: #ffffff;
+  padding: 3rem 3rem;
+
+}
+
+
+/**
+ * BARRA DE NAVEGACION
+ */
+
+.navbar-brand
+{
+  padding: 0.24rem 1rem;
+  margin: 0 0;
+  transition: all ease-out 0.2s;
+}
+
+.navbar-brand:hover{
+  padding: 0.24rem 1rem;
+  margin: 0 0;
+  color: #161856 !important;
+  background-color: #cf8e28 !important;
+  transform: scale(1.04);
+  -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.65);
+  box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.65);
+}
+
+.nav-link 
+{
+  font-weight: bold;
+  padding-left: 0.8rem !important;
+  padding-right: 0.8rem !important; 
+  transition: all ease-out 0.2s;
+}
+
+
+/* CAMBIO DE COLOR PARA LOS LINKS DEL MENU DE NAVEGACION SUPERIOR: A UN COLOR DORADO; */
+.nav-link:hover 
+{
+  background-color: #cf8e28 !important;
+  -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.65);
+  box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.65);
+  transform: scale(1.04);
+  color: #161856 !important;
+}
+
+
+/**
+ * CORREGIR EL MARGEN SUPERIOR DEL MENU Y DEL CARROUSEL
+ */
+
+.reparartop
+{
+  top:-1.48rem;
+}
+
+
+
+.separarcontenedores
+{
+  /* Para generar una separacion entre las filas del contenido */
+  margin: 4rem 4rem; 
+}
+
+
+
+/**
+ * ESTILIZANDO LOS CAROUSEL
+ */
+
+/* Agregando mangen para separar los elementos inferiores */
+.carousel 
+{
+  margin-bottom: 4rem;
+}
+/* Desde el borde de la imagen posiciono los elementos caption del carousel de imagenes */
+.carousel-caption 
+{
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* se define la altura de los elementos del carousel */
+.carousel-item 
+{
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/**
+ * SECCIÓN DE TARJETAS INFORMATIVAS DEL STAFF
+ */
+
+.staff .col-lg-4 
+{
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.staff h2 
+{
+  font-weight: 400;
+}
+
+.staff .col-lg-4 p 
+{
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/**
+ * FONDOS PARA LOS HEADERS DEL STAFF
+ */
+
+.fotostaff
+{
+  width: 9rem;
+  height: 9rem;
+  border: 0.1rem solid #161856;
+  -webkit-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  -moz-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+}
+
+.bg1headerstaff
+{
+  background: url(../img/staff/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg2headerstaff
+{
+  background: url(../img/staff/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg3headerstaff
+{
+  background: url(../img/staff/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg4headerstaff
+{
+  background: url(../img/staff/4.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg5headerstaff
+{
+  background: url(../img/staff/5.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg6headerstaff
+{
+  background: url(../img/staff/6.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+.bg7headerstaff
+{
+  background: url(../img/staff/7.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.bg8headerstaff
+{
+  background: url(../img/staff/8.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.bg9headerstaff
+{
+  background: url(../img/staff/9.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.bg10headerstaff
+{
+  background: url(../img/staff/10.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.bg11headerstaff
+{
+  background: url(../img/staff/11.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.bg12headerstaff
+{
+  background: url(../img/staff/12.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+
+/**
+ * SECCION DE CONTENIDO
+ */
+
+
+.contenidoinfo-divisor
+{
+  /* Margen adicional para los elementos <hr> que dividiran los elementos entre secciones */
+  margin: 2rem 0; 
+}
+
+/* MANEJO DE LOS TITULOS DE SECCION */
+.contenidoinfo-titulo 
+{
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.contenidosecciones
+{
+  background: rgba(255,255,255,0.75);
+  border: 0.2rem solid #161856;
+  padding: 1rem 0.5rem;
+}
+
+.contenidosecciones:hover
+{
+  -webkit-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  -moz-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  transition: all ease-out 0.2s;
+  transform: scale(1.05);
+}
+
+
+
+
+.fieldsetform
+{
+  background: rgba(255,255,255,0.75);
+  border: 0.2rem solid #161856;
+  padding: 1rem 1.5rem;
+
+}
+
+.fieldsetform:hover
+{
+  -webkit-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  -moz-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);  
+}
+
+.leyendaform
+{
+  background: #ffffff;
+  border: 0.2rem solid #161856;
+  padding: 0.2rem 0.3rem;
+  -webkit-box-shadow: -1px 4px 6px -2px rgba(0,0,0,0.69);
+  -moz-box-shadow: -1px 4px 6px -2px rgba(0,0,0,0.69);
+  box-shadow: -1px 4px 6px -2px rgba(0,0,0,0.69);
+  width:75%;
+}
+
+
+
+/**
+ * TAMAÑO MAXIMO DEL BODY DE LAS TARJETAS DE INFORMACION DEL SITIO
+ */
+
+.bodytarjetas
+{
+  height: 26rem;
+}
+
+
+/**
+ * EFECTOS PARA LAS TARJETAS DE INFORMACION
+ */
+
+.card
+{
+  transition: all ease-out 0.2s;
+}
+
+.card:hover
+{
+  -webkit-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  -moz-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  transform: scale(1.03);
+}
+
+.card-margen-abajo
+{
+  margin-bottom: 2rem;
+}
+
+
+/**
+ * SECCION DE LOS ELEMENTOS MEDIA QUERY PARA GENERAR EL COMPORTAMIENTO RESPONSIVE
+ */
+
+@media (min-width: 40em) 
+{
+
+  /**
+   * CONFIGURACION DE LOS TAMAÑOS DE LOS ELEMENTOS
+   */
+  .carousel-caption p 
+  {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+}
+
+
+.input-group:hover
+{
+  transition: all ease-out 0.2s;
+  transform: scale(1.04);
+}
+
+
+.jumbotron:hover
+{
+  -webkit-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  -moz-box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  box-shadow: 0px 2px 11px 2px rgba(22,24,86,0.62);
+  transition: all ease-out 0.2s;
+  transform: scale(1.02);
+}
+
+
+
+
